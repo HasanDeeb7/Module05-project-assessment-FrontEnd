@@ -1,0 +1,28 @@
+.loginPageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.loginFormContainer {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid black;
+  padding: 70px;
+  border-radius: 10px;
+}
+.inputsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.loginButton {
+  padding: 10px 30px;
+  background-color: #1f1c1c;
+  color: snow;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
